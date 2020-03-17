@@ -1,22 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content">
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="15dp"
+    android:paddingTop="15dp"
+    android:paddingBottom="15dp">
 
     <ImageView
         android:id="@+id/image"
-        android:layout_width="146dp"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginRight="15dp"
         app:srcCompat="@drawable/emoji_kids_02" />
 
     <TextView
         android:id="@+id/name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:text="student" />
+        android:layout_gravity="center_vertical"
+        android:text="student"
+        android:textSize="20dp" />
 
 
 </LinearLayout>
